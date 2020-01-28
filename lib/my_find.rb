@@ -9,8 +9,8 @@ def my_find(collection)
 end
 def my_find(collection)
   i = 0 
-  while i < 100
-    yield(1)
+  while i < collection.length
+   if yield(1
       i = i + 1 
   end
 end
