@@ -10,7 +10,14 @@ end
 def my_find(collection)
   i = 0 
   while i < collection.length
-   if yield(1
+   if yield(collection[i])
+     return collection [i]
+  end
+  i = i + 1 
+ end
+end
+
+  
       i = i + 1 
   end
 end
